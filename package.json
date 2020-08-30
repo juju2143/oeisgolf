@@ -1,0 +1,23 @@
+{
+  "name": "oeisgolf",
+  "version": "0.0.1",
+  "description": "Implementations of every sequence in the OEIS, golfed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juju2143/oeisgolf.git"
+  },
+  "keywords": [
+    "oeis",
+    "golf"
+  ],
+  "author": "juju2143 <juju2143@gmail.com>",
+  "license": "LiLiQ-P-1.1",
+  "bugs": {
+    "url": "https://github.com/juju2143/oeisgolf/issues"
+  },
+  "homepage": "https://github.com/juju2143/oeisgolf#readme"
+}
