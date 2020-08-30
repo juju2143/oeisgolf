@@ -11,7 +11,7 @@ describe('A()', function() {
                 it("A"+seq, function(done){
                     this.timeout(60000);
                     this.slow(500);
-                    https.get("https://oeis.org/search?q=id:A"+seq+"&fmt=json", res=>{
+                    https.get("https://oeis.org/search?q=id:Ab"+seq+"&fmt=json", res=>{
                         assert.equal(res.statusCode, 200, "Request to the OEIS failed")
                         assert.match(res.headers['content-type'], /^application\/json/, "Request to the OEIS failed")
                         res.setEncoding('utf8');
@@ -27,10 +27,9 @@ describe('A()', function() {
                                 {
                                     assert.equal(A(seq,i+offset), sequence[i], "Sequence not identical")
                                 }
-                            } catch (e) {
-                                assert.fail(e);
-                            } finally {
                                 done();
+                            } catch (e) {
+                                done(e);
                             }
                         });
                     })
