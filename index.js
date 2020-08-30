@@ -1,1 +1,1 @@
-module.exports=(a,n)=>require("./a/"+(parseInt(a)+"").padStart(6,0)+".js")(n);
+module.exports=(a,n)=>require("./a/"+(parseInt(a)+"").padStart(6,0))(n)

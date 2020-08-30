@@ -1,1 +1,1 @@
-module.exports=a=n=>n<3?2*n-1:a(n-2)+a(n-1)
+var a=module.exports=n=>n<3?2*n-1:a(n-2)+a(n-1)
