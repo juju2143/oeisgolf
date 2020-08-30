@@ -1,1 +1,1 @@
-var a=module.exports=n=>n<2?1:a(n-2)*n
+let a=module.exports=n=>n<2?1:a(n-2)*n

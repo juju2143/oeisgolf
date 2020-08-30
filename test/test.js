@@ -7,7 +7,7 @@ describe('A()', function() {
     describe('#index', function(){
         fs.readdir("a", (err,files)=>{
             files.forEach((file)=>{
-                var seq = file.split(".")[0]
+                let seq = file.split(".")[0]
                 it("A"+seq, function(done){
                     this.timeout(60000);
                     this.slow(500);
@@ -21,8 +21,8 @@ describe('A()', function() {
                             try {
                                 const parsed = JSON.parse(rawData);
                                 assert.ok(parsed.results, "Can't find sequence");
-                                var sequence = parsed.results[0].data.split(",");
-                                var offset = ~~parsed.results[0].offset.split(",")[0];
+                                let sequence = parsed.results[0].data.split(",");
+                                let offset = ~~parsed.results[0].offset.split(",")[0];
                                 for(i=0;i<sequence.length;i++)
                                 {
                                     assert.equal(A(seq,i+offset), sequence[i], "Sequence not identical")
