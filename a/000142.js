@@ -1,1 +1,1 @@
-module.exports=n=>[...Array(n).keys()].reduce((x,y)=>x*-~y,1)
+let a=module.exports=n=>n?n*a(n-1):1
