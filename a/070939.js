@@ -1,1 +1,1 @@
-module.exports=n=>-~Math.log2(n)
+exports.a=n=>-~Math.log2(n)

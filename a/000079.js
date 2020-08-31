@@ -1,0 +1,1 @@
+exports.a=n=>2**n

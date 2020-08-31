@@ -1,1 +1,1 @@
-module.exports=n=>-~-~n*2**~-n
+exports.a=n=>-~-~n*2**~-n

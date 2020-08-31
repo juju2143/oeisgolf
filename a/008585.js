@@ -1,0 +1,1 @@
+exports.a=n=>3*n

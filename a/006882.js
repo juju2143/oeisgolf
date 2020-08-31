@@ -1,1 +1,1 @@
-let a=module.exports=n=>n<2?1:a(n-2)*n
+exports.a=n=>n<2?1:this.a(n-2)*n

@@ -1,1 +1,1 @@
-module.exports=n=>n%2
+exports.a=n=>n%2

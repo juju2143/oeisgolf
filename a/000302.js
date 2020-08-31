@@ -1,1 +1,1 @@
-module.exports=n=>4**n
+exports.a=n=>4**n

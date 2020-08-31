@@ -1,1 +1,1 @@
-module.exports=n=>1
+exports.a=n=>1

@@ -1,0 +1,1 @@
+exports.a=n=>~~[...(n+'')].reduce((x,y)=>x*y)

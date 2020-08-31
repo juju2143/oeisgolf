@@ -1,1 +1,1 @@
-module.exports=(a,n)=>require("./a/"+(~~a+"").padStart(6,0))(n)
+module.exports=(a,n)=>require("./a/"+(~~a+"").padStart(6,0)).a(n)
