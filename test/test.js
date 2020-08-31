@@ -25,7 +25,7 @@ describe('A()', function() {
                                 let offset = ~~parsed.results[0].offset.split(",")[0];
                                 for(i=0;i<sequence.length;i++)
                                 {
-                                    assert.strictEqual(n=A(seq,i+offset), s=~~sequence[i], `Sequence not identical: ${n} !== ${s} at i=${i+offset}`)
+                                    assert.strictEqual(n=A(seq,i+offset), s=parseInt(sequence[i]), `Sequence not identical: ${n} !== ${s} at i=${i+offset}`)
                                 }
                                 done();
                             } catch (e) {
