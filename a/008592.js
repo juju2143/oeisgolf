@@ -1,0 +1,1 @@
+exports.a=n=>10*n
